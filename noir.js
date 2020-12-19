@@ -13,7 +13,7 @@ const setting = JSON.parse(fs.readFileSync('./lib/setting.json'))
   let { 
     self,
     prefix,
-    vhtear //Buy your apikey in vhtear.com & place it to setting.json
+    vhtear //Buy your apikey in vhtear.com & put it to setting.json
     } = setting
 
 //Client Start
@@ -91,7 +91,7 @@ function yourSelf () {
 	if (yourSelf() || isYours){
     	switch (command) {
         case prefix+'self':
-        	if (!isYours) return
+            if (!isYours) return
             if (setting.self === true) return noir.reply(your, 'Self Mode is recently on!', id)            
             setting.self = true
             self = true

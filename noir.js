@@ -19,7 +19,8 @@ const setting = JSON.parse(fs.readFileSync('./lib/setting.json'))
 //Client Start
 module.exports = noir = async (noir, message) => {
 try{
-	const { 
+
+     const { 
 	id,	
         type,
         from,

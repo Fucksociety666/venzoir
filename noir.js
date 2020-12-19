@@ -21,7 +21,7 @@ module.exports = noir = async (noir, message) => {
 try{
 
 	const { 
-		id,	
+	id,	
         type,
         from,
         to,
@@ -39,14 +39,14 @@ try{
         mentionedJidList 
         } = message
 
-	const your = sender && sender.isMe ? to : from
+    const your = sender && sender.isMe ? to : from
     const { name } = chat
     let { pushname, verifiedName } = sender
     pushname = pushname || verifiedName
-	let { body } = message
+    let { body } = message
     const commands = caption || body || ''
     const command = commands.toLowerCase().split(' ')[0] || ''
-	const time = moment(t * 1000).format('DD/MM HH:mm:ss')
+    const time = moment(t * 1000).format('DD/MM HH:mm:ss')
     const args =  commands.split(' ')
     const isCmd = command.startsWith(prefix)
     const uaOverride = 'WhatsApp/2.2029.4 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'

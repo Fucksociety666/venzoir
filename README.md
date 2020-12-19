@@ -1,6 +1,6 @@
 # Venzoir
 
-Basic Self WhatsAppBot using https://github.com/orkestral/venom as a base
+Basic Self WhatsAppBot using https://github.com/orkestral/venom as base
 
 
 # How to install

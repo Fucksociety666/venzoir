@@ -9,7 +9,7 @@ you have to have node js installed https://nodejs.org/de/download/
 Change your number in noir.js<br>
 Change your apikey vhtear in lib/setting.json
 
-then type:
+type:
 
 <h4>npm install</h4>
 
@@ -22,10 +22,10 @@ in your bash.
 in your bash.
 
 # Avaliable Commands
-**self** self mode<br>
-**public** public mode<br>
-**setprefix** change your prefix<br>
-**ping** your speed performance bot<br>
+**self**: self mode<br>
+**public**: public mode<br>
+**setprefix**: change your prefix<br>
+**ping**: your speed performance bot<br>
 
 # Disclaimer
 This script isn't perfect in the slightest sense. Its just a small project I am working on in my free time so yeah maintaince is pretty poor but I try to do my best :D.

@@ -1,0 +1,24 @@
+{
+  "name": "Venzoir",
+  "version": "1.0.0",
+  "description": "SelfBOT WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Whatsapp-Bot"
+  ],
+  "author": "noire-xv",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.1",
+    "moment": "^2.29.1",
+    "performance-now": "^2.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "venom-bot": "^2.2.2"
+  }
+}

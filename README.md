@@ -4,7 +4,7 @@ Basic Self WhatsAppBot using https://github.com/orkestral/venom as base
 
 
 # How to install
-you have to have node js installed https://nodejs.org/de/download/
+you have to install Nodejs https://nodejs.org/de/download/
 
 Change your number in noir.js<br>
 Change your apikey vhtear in lib/setting.json

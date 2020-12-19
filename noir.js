@@ -19,7 +19,6 @@ const setting = JSON.parse(fs.readFileSync('./lib/setting.json'))
 //Client Start
 module.exports = noir = async (noir, message) => {
 try{
-
 	const { 
 	id,	
         type,
@@ -74,7 +73,7 @@ function yourSelf () {
     const isYours = yourNumber.includes(sender.id)
     const yourName = 'NOIR' //Owner Name
 
-    //SELF Switch
+    //PUBLIC Switch
     if (body == `${prefix}public`) {
         if (!isYours) return
         if(setting.self === false) return noir.reply(your, 'Public Mode is recently on!', id)

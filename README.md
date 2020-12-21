@@ -6,8 +6,8 @@ Basic Self WhatsAppBot using https://github.com/orkestral/venom as base
 # How to install
 you have to install Nodejs https://nodejs.org/de/download/
 
-Change your number in noir.js<br>
-Change your apikey vhtear in lib/setting.json
+- Change [yourNumber](https://github.com/noire-xv/venzoir/blob/main/noir.js#L73) in noir.js
+- Change [yourName](https://github.com/noire-xv/venzoir/blob/main/noir.js#L75) in noir.js
 
 type:
 
